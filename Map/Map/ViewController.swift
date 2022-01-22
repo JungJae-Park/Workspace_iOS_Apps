@@ -71,7 +71,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBAction func sgChangeLocation(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 { // 현재위치
-            
+            self.lblLocationInfo1.text = ""
+            self.lblLocationInfo2.text = ""
+            locationManager.startUpdatingLocation()
         } else if sender.selectedSegmentIndex == 1 { // 판교역
             setAnnotation(latitudeValue: 37.39496350183789, longitudeValue: 127.11114926990128, delta: 0.01, title: "판교역", subtitle: "경기 성남시 분당구 판교역로 160")
             self.lblLocationInfo1.text = "보고 계신 위치"
