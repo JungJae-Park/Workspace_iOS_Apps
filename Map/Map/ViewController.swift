@@ -77,7 +77,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.lblLocationInfo1.text = "보고 계신 위치"
             self.lblLocationInfo2.text = "판교역 신분당선"
         } else if sender.selectedSegmentIndex == 2 { // 강남역
-            
+            setAnnotation(latitudeValue: 37.49795926966216, longitudeValue: 127.02762175977003, delta: 0.01, title: "강남역", subtitle: "서울 강남구 강남대로 396")
+            self.lblLocationInfo1.text = "보고 계신 위치"
+            self.lblLocationInfo2.text = "강남역 2호선"
         }
     }
 }
