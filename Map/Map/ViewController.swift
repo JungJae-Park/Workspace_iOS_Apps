@@ -34,6 +34,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let pRegion = MKCoordinateRegion(center: pLocation, span: spanValue)
         myMap.setRegion(pRegion, animated: true)
     }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let pLocation = locations.last
+        goLocation(latitudeValue: (pLocation?.coordinate.latitude)!, longitudeValue: (pLocation?.coordinate.longitude)!, delta: 0.01)
+    }
 
     @IBAction func sgChangeLocation(_ sender: UISegmentedControl) {
     }
