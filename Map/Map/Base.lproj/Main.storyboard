@@ -24,6 +24,9 @@
                                     <segment title="판교역"/>
                                     <segment title="강남역"/>
                                 </segments>
+                                <connections>
+                                    <action selector="sgChangeLocation:" destination="BYZ-38-t0r" eventType="valueChanged" id="Tf8-Xh-XsD"/>
+                                </connections>
                             </segmentedControl>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1vg-G4-0gH">
                                 <rect key="frame" x="16" y="103" width="358" height="623"/>
@@ -47,6 +50,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="lblLocationInfo1" destination="nEz-jO-sZc" id="FSY-wM-bW4"/>
+                        <outlet property="lblLocationInfo2" destination="jHG-rQ-Ooa" id="0vU-eZ-9uE"/>
+                        <outlet property="myMap" destination="1vg-G4-0gH" id="zKq-D3-ftu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
