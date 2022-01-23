@@ -30,4 +30,3 @@ class ViewController: UIViewController {
         imgView.image = UIImage(named: images[pageControl.currentPage])
     }
 }
-
