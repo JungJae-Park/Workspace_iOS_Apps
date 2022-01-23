@@ -17,6 +17,7 @@
 		4E2D65DB279D36FE0023B258 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2D65D9279D36FE0023B258 /* lamp_on.png */; };
 		4E2D65DD279D37380023B258 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D65DC279D37380023B258 /* ImageViewController.swift */; };
 		4E2D65DF279D38290023B258 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D65DE279D38280023B258 /* DateViewController.swift */; };
+		4E2D65E1279D39880023B258 /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2D65E0279D39880023B258 /* File.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4E2D65D9279D36FE0023B258 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 		4E2D65DC279D37380023B258 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		4E2D65DE279D38280023B258 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		4E2D65E0279D39880023B258 /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				4E2D65D8279D36FE0023B258 /* lamp_off.png */,
 				4E2D65D9279D36FE0023B258 /* lamp_on.png */,
+				4E2D65E0279D39880023B258 /* File.png */,
 				4E2D65C4279D35EB0023B258 /* AppDelegate.swift */,
 				4E2D65C6279D35EB0023B258 /* SceneDelegate.swift */,
 				4E2D65C8279D35EB0023B258 /* ViewController.swift */,
@@ -140,6 +143,7 @@
 				4E2D65D1279D35ED0023B258 /* LaunchScreen.storyboard in Resources */,
 				4E2D65CE279D35ED0023B258 /* Assets.xcassets in Resources */,
 				4E2D65DB279D36FE0023B258 /* lamp_on.png in Resources */,
+				4E2D65E1279D39880023B258 /* File.png in Resources */,
 				4E2D65CC279D35EB0023B258 /* Main.storyboard in Resources */,
 				4E2D65DA279D36FE0023B258 /* lamp_off.png in Resources */,
 			);

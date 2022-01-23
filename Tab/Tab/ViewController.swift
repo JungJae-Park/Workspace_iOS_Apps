@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btnMoveImageView(_ sender: UIButton) {
+    }
+    @IBAction func btnMoveDatePickerView(_ sender: UIButton) {
+    }
+    
 }
 
