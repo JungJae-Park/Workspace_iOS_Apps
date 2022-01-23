@@ -16,6 +16,7 @@
 		4E2D65DA279D36FE0023B258 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2D65D8279D36FE0023B258 /* lamp_off.png */; };
 		4E2D65DB279D36FE0023B258 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2D65D9279D36FE0023B258 /* lamp_on.png */; };
 		4E2D65DD279D37380023B258 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D65DC279D37380023B258 /* ImageViewController.swift */; };
+		4E2D65DF279D38290023B258 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D65DE279D38280023B258 /* DateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4E2D65D8279D36FE0023B258 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
 		4E2D65D9279D36FE0023B258 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 		4E2D65DC279D37380023B258 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		4E2D65DE279D38280023B258 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				4E2D65C6279D35EB0023B258 /* SceneDelegate.swift */,
 				4E2D65C8279D35EB0023B258 /* ViewController.swift */,
 				4E2D65DC279D37380023B258 /* ImageViewController.swift */,
+				4E2D65DE279D38280023B258 /* DateViewController.swift */,
 				4E2D65CA279D35EB0023B258 /* Main.storyboard */,
 				4E2D65CD279D35ED0023B258 /* Assets.xcassets */,
 				4E2D65CF279D35ED0023B258 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2D65DF279D38290023B258 /* DateViewController.swift in Sources */,
 				4E2D65C9279D35EB0023B258 /* ViewController.swift in Sources */,
 				4E2D65C5279D35EB0023B258 /* AppDelegate.swift in Sources */,
 				4E2D65DD279D37380023B258 /* ImageViewController.swift in Sources */,
