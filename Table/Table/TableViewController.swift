@@ -23,6 +23,11 @@ class TableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         self.navigationItem.leftBarButtonItem = self.editButtonItem
     }
+    
+    // ViewDidLoad -> ViewWillAppear -> ViewDidAppear 순서로 호출
+    override func viewWillAppear(_ animated: Bool) {
+        tvListView.reloadData()
+    }
 
     // MARK: - Table view data source
 
