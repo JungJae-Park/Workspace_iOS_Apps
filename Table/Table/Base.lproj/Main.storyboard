@@ -64,12 +64,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D1k-cD-cXC">
+                                <rect key="frame" x="100" y="210" width="191" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jkd-4N-nLV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail View" id="Rg5-6r-uFg"/>
                     <connections>
+                        <outlet property="imgItem" destination="D1k-cD-cXC" id="VCL-gm-5va"/>
                         <outlet property="lblItem" destination="nci-cJ-4iC" id="Q24-B3-3JR"/>
                     </connections>
                 </viewController>
