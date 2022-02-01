@@ -89,6 +89,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         progressTimer.invalidate()
     }
     @IBAction func slChangeVolume(_ sender: UISlider) {
+        audioPlayer.volume = slVolume.value
+    }
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        progressTimer.invalidate()
+        setPlayButtons(true, pause: false, stop: false)
     }
     
 }
