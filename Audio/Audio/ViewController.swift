@@ -28,12 +28,23 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet var btnRecord: UIButton!
     @IBOutlet var lblRecordTime: UILabel!
     
+    var audioRecorder: AVAudioRecorder!
+    var isRecordeMode = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        audioFile = Bundle.main.url(forResource: "Sicilian_Breeze", withExtension: "mp3")
+        selectAudioFile()
         initPlay()
+    }
+    
+    func selectAudioFile() {
+        if !isRecordeMode {
+            audioFile = Bundle.main.url(forResource: "Sicilian_Breeze", withExtension: "mp3")
+        } else {
+            let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+            audioFile = documentDirectory.appendingPathComponent("recordFile.m4a")
+        }
     }
     
     func initPlay() {
